@@ -13,8 +13,8 @@ const App = () => {
       {/* <ProductList></ProductList> */}
       {/* <Product></Product> */}
       {/* <Register></Register> */}
-      {/* <Login></Login> */}
-      <Cart></Cart>
+      <Login></Login>
+      {/* <Cart></Cart> */}
     </>
   );
 };
