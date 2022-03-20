@@ -9,3 +9,5 @@
 7. Footer
 8. ProductList
 9. Product - (pages)
+10. Register
+11. Login
