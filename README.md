@@ -11,3 +11,5 @@
 9. Product - (pages)
 10. Register
 11. Login
+12. Cart
+13. Media Quary
