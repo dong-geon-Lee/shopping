@@ -8,3 +8,4 @@
 6. Newsletter
 7. Footer
 8. ProductList
+9. Product - (pages)
