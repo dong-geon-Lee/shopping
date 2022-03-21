@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { popularProducts } from "../data.js";
+import { popularProducts } from "../data";
 import Product from "./Product";
 
 const Container = styled.div`
@@ -14,7 +14,7 @@ const Products = () => {
   return (
     <Container>
       {popularProducts.map((item) => (
-        <Product key={item.id} item={item}></Product>
+        <Product item={item} key={item.id} />
       ))}
     </Container>
   );

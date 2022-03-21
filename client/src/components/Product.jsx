@@ -69,10 +69,14 @@ const Icon = styled.div`
 `;
 
 const Product = ({ item }) => {
+  if (!item) {
+    return <h1>Empty Item</h1>;
+  }
+
   return (
     <Container>
       <Circle></Circle>
-      <Image src={item.img}></Image>
+      <Image src={item.img} />
 
       <Info>
         <Icon>
