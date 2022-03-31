@@ -62,6 +62,7 @@ const Products = ({ cat, filters, sort }) => {
       });
     }
   }, [sort]);
+
   return (
     <Container>
       {cat
